@@ -74,6 +74,7 @@ header h1 {
 .selectGame p{
     background-color: #E7E0C9;
     margin-left: 0.5rem;
+    padding: 1rem;
     height: 15rem;
     width: 13rem;
     border-radius: 15%;
@@ -97,3 +98,4 @@ footer {
 footer p {
     color: #E7E0C9;
 }
+
