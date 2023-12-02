@@ -1,31 +1,24 @@
-import React, {useState}from "react";
+import React from "react";
+import {useNavigate } from "react-router-dom";
 
-function GameSelect(){
+function GameSelect() {
+  const navigate = useNavigate();
 
-  const [gameMode, setGameMode] = useState("");
-
-  function handleClick1(){
-    setGameMode("game1");
-  }
-  function handleClick2(){
-    setGameMode("game2");
-  }
-
-  return(
+  return (
     <div className="container selectGame">
       <h2>Choose game mode</h2>
       <div className="selectGameGrid">
         <div className="firstGame">
-          <button onClick={handleClick1}>Game1</button>
+          <button onClick={() => navigate("/game1")}>Game1</button>
           <p>Do you want to guess the number?</p>
-        </div> 
+        </div>
         <div className="secondGame">
-          <button onClick={handleClick2}>Game2</button>
+          <button onClick={() => navigate("/game2")}>Game2</button>
           <p>Do you want them to guess your number?</p>
         </div>
-      </div>    
+      </div>
     </div>
- );
+  );
 }
 
 export default GameSelect;
