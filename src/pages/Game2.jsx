@@ -6,7 +6,9 @@ function Game2() {
   return (
     <div>
       <Header />
+      <div className="gamestyle">
       <h1>Game2</h1>
+      </div>
       <Footer />
     </div>
   );

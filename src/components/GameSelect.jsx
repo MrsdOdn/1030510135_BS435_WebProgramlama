@@ -5,9 +5,9 @@ function GameSelect() {
   const navigate = useNavigate();
 
   return (
-    <div className="container selectGame">
+    <div className="container gamestyle gameselect">
       <h2>Choose game mode</h2>
-      <div className="selectGameGrid">
+      <div className="gamestyleGrid">
         <div className="firstGame">
           <button onClick={() => navigate("/game1")}>Game1</button>
           <p>Do you want to guess the number?</p>
