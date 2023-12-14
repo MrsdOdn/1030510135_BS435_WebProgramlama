@@ -6,8 +6,9 @@ function Game2() {
   return (
     <div>
       <Header />
-      <div className="gamestyle">
-      <h1>Game2</h1>
+      <div className="container gamestyle center game1">
+        <h1>Game2</h1>
+        <button onClick={gameInformationAlert}>HowToPlay</button>
       </div>
       <Footer />
     </div>
