@@ -13,6 +13,7 @@ body {
   font-family: "McLaren", cursive;
 }
 header {
+  min-height: 15vh;
   background-color: #11324d;
   margin: auto -16px;
   padding: 16px 32px;
@@ -56,11 +57,12 @@ header h1 {
   font-size: 1.5rem;
 }
 
+
 .gamestyle {
   margin: auto;
   width: 100%;
   height: auto;
-  min-height: 550px;
+  min-height: 75vh;
   max-width: 500px;
   min-width: 250px;
   background: #c1cfc0;
@@ -101,6 +103,15 @@ header h1 {
 }
 button:hover {
   color: #6b7aa1;
+}
+
+p .buttonGuess{
+  background-color: #e7e0c9;
+  color: #11324d;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 3rem;
+  width: 5rem;
 }
 .gameselect p {
   background-color: #e7e0c9;
@@ -149,6 +160,7 @@ footer {
   margin: auto;
   bottom: 0;
   width: 100%;
+  min-height: 10vh;
   height: 4.5rem;
 }
 footer p {
